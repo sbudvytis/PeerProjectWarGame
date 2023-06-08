@@ -23,9 +23,18 @@ class Player:
         self.player1 = player1
         self.player2 = player2
 
-    def players(self):
-        deck = Deck()
-        player1, player2 = deck.deal_cards()
 
-a = Player("sarunas", "mahedi")
-print(a)
+a = Player("sarunas","player2")
+deck = Deck()
+a.player1, a.player2 = deck.deal_cards()
+print(f"\n{input('Player name: ')}'s deck:\n")
+for card in a.player2:
+    print(card)
+print("\nComputer's deck:\n")
+for card in a.player1:
+    print(card)
+print("\n")
+print("\n")
+print(a.player2.pop())
+print(a.player1.pop())
+
