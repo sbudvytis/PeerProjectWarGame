@@ -20,6 +20,8 @@ Creating a simple command-line implementation of the War card game using Python.
 - Compare the face-up cards:
     - If one player's face-up card has a higher value, that player takes all the cards on the table (including the face-down cards) and adds them to their stack.
     - If the face-up cards have the same value, repeat the war by placing another set of face-down/up cards.
+    - If one player left with 2 cards or less during the war, players will only place face-up cards.
+    - If player has only 1 card and war occurs, the other player wins the game.
     - Continue this process until one player's face-up card is higher.
 
 5. End the game:
