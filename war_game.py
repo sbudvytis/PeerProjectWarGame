@@ -34,5 +34,6 @@ print("\nComputer's deck:\n")
 for card in a.player1:
     print(card)
 print("\n")
+print("\n")
 print(a.player2.pop())
 print(a.player1.pop())
