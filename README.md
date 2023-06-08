@@ -49,8 +49,9 @@ python war_game.py
 ```
 ## Additional Notes
 
-The game supports one player.
+The game supports one players input. Then program automatically determines the winner.
 Aces are considered high, and suits are ignored during comparison.
 In case of a war, each player places one face-down card followed by one face-up card.
 If a player runs out of cards during a war, they lose the game.
+If a player has only 1 card left during the war, he places the last card face-up.
 The game continues until one player has all 52 cards in their stack.
