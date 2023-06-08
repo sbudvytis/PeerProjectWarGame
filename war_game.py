@@ -28,4 +28,4 @@ class Player:
         player1, player2 = deck.deal_cards()
 
 a = Player("sarunas", "mahedi")
-print(a.players)
+print(a)
